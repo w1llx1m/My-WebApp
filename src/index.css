@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+.card .card-title {
+  font-family: Arial, Helvetica;
+  margin: 0%;
+  color: rgb(42, 42, 42);
+}
+
+.card .card-desc {
+  font-family: Arial, Helvetica;
+  color: hsl(0,0%,30%);
+}
